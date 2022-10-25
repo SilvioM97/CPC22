@@ -1,4 +1,10 @@
 //Solved without transforming the number into a string
+//At the moment of submission (25/10/22):
+/*
+Runtime: 4 ms, faster than 95.00% of Rust online submissions for Palindrome Number.
+Memory Usage: 1.9 MB, less than 94.74% of Rust online submissions for Palindrome Number.
+*/
+
 impl Solution {
     pub fn is_palindrome(x: i32) -> bool {
         let mut y: i32 = x;
